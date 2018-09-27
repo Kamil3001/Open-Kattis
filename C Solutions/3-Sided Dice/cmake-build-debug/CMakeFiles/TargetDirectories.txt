@@ -1,0 +1,3 @@
+C:/Users/kamil/Desktop/Github Repos/Open-Kattis/C Solutions/3-Sided Dice/cmake-build-debug/CMakeFiles/3_Sided_Dice.dir
+C:/Users/kamil/Desktop/Github Repos/Open-Kattis/C Solutions/3-Sided Dice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kamil/Desktop/Github Repos/Open-Kattis/C Solutions/3-Sided Dice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
