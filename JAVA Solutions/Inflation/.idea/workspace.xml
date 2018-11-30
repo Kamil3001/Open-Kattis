@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="645e3660-1d8f-4cd2-b145-24fde0c1e3d3" name="Default" comment="" />
+    <list default="true" id="f2c470c3-c5b3-4be3-83fd-c4b29b4ebcfe" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +15,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,24 +60,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Kleptography" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kleptography" type="462c0819:PsiDirectoryNode" />
+              <item name="Inflation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inflation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kleptography" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kleptography" type="462c0819:PsiDirectoryNode" />
+              <item name="Inflation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inflation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,7 +101,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Kleptography" />
+      <module name="Inflation" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -153,17 +156,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="645e3660-1d8f-4cd2-b145-24fde0c1e3d3" name="Default" comment="" />
-      <created>1543540938713</created>
+      <changelist id="f2c470c3-c5b3-4be3-83fd-c4b29b4ebcfe" name="Default" comment="" />
+      <created>1543546654854</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543540938713</updated>
-      <workItem from="1543540940052" duration="4130000" />
+      <updated>1543546654854</updated>
+      <workItem from="1543546656242" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4130000" />
+    <option name="totallyTimeSpent" value="859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="0" width="783" height="832" extended-state="0" />
@@ -182,7 +185,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496749" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -207,8 +210,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
