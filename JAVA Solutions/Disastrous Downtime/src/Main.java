@@ -4,34 +4,29 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String args[]){
+    public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
-        int numOfRequests = sc.nextInt();
-        int maxRequests = sc.nextInt();
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int result = 1;
 
-        Comparator<Integer> comp = Comparator.reverseOrder();
-        PriorityQueue<Integer> pq = new PriorityQueue<>(comp);
+        int[] times = new int[n];
+        int firstIndex = 0;
+        int tempOut = 1;
 
-        int available = 0;
-        int servers = 0;
-        for(int i=0; i<numOfRequests; i++){
-            int currTime = sc.nextInt();
-            while(pq.size() > 0 && pq.peek() <= currTime-1000){
-                pq.remove(pq.peek());
-                available++;
-            }
+        times[0] = sc.nextInt();
+        for(int i = 1; i < n; i++){
 
-            if(available == 0) {
-                servers++;
-                available+=maxRequests-1;
-                pq.add(currTime);
+            times[i] = sc.nextInt();
+            while(times[firstIndex] + 1000 <= times[i]){
+                firstIndex++;
+                tempOut--;
             }
-            else{
-                available--;
-                pq.add(currTime);
-            }
+            tempOut++;
+            result = Math.max(result, tempOut);
         }
 
-        System.out.println(servers);
+        System.out.println((int) Math.ceil(1.0*result / k));
+
     }
 }
